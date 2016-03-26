@@ -38,6 +38,10 @@ extern "C" {
 	// Beta boards
 	#define BOARD_ESP01
 
+	// GPIO config
+	#define BTN_PIN 0
+	#define LED_PIN 2
+
 #ifdef __cplusplus
 }
 #endif
