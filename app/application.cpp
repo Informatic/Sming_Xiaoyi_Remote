@@ -2,16 +2,7 @@
 #include <SmingCore/SmingCore.h>
 #include "AmbaClient.h"
 
-// Default Xiaoyi network password and prefix
-#define WIFI_PWD "1234567890"
-#define NETWORK_PREFIX "YDXJ_"
-
-// Default network_message_daemon port and camera IP
-#define SERVER_IP "192.168.42.1"
-#define SERVER_PORT 7878
-
-// Static IP
-#define CLIENT_IP IPAddress(192, 168, 42, 250)
+// You can find some configuration variables in user_config.h
 
 void listNetworks(bool succeeded, BssList list);
 
